@@ -1,0 +1,27 @@
+.course-review {
+  .header {
+    margin-bottom: 30px;
+  }
+
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__raiting {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.review-dialog {
+  .review-text {
+    width: 400px;
+    background-color: #fff;
+    font-size: 20px;
+  }
+}

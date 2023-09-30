@@ -1,0 +1,108 @@
+// app global css in SCSS form
+
+// MainLayout
+//  font-family: IBM Plex Sans,sans-serif; HEADER
+@font-face {
+  font-family: 'Audiowide';
+  src: url('./fonts/Audiowide-Regular.ttf') format('truetype');
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
+
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+  // font-size: 14px;
+}
+
+.header {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.passed-lesson {
+  color: #21ba45 !important;
+}
+
+.main-layout {
+  .q-toolbar {
+    padding: 0;
+  }
+}
+
+.main-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.course-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.errorMessage {
+  color: #990000;
+}
+
+// Catalog section
+.item-children {
+  display: flex;
+
+  & > .q-checkbox {
+    width: 20%;
+    align-self: flex-start;
+  }
+
+  .q-item-type.q-item--clickable {
+    padding-right: 0;
+  }
+
+  .q-expansion-item.expand-separator.expand-separator {
+    width: 65%;
+  }
+}
+
+// Filter item checkboxes
+.filter-item {
+  .q-checkbox {
+    width: 100%;
+    .q-checkbox__label {
+      width: 100%;
+    }
+  }
+
+  .q-item__section--main ~ .q-item__section--side {
+    padding-left: 0;
+  }
+}
+
+.item-children {
+  .q-item.q-item-type {
+    padding-left: 0;
+  }
+}
+
+.course-cards {
+  .card-chips {
+    margin-bottom: none !important;
+    padding-bottom: none !important;
+  }
+}
+
+// Attachment dropdown
+.attachment-dropdown-item {
+  .q-item__section.q-item__section--main.justify-center:nth-child(2) {
+    flex-wrap: nowrap;
+  }
+}
+
+.selectedPhrase em {
+  background-color: rgb(119, 159, 231);
+  border-radius: 2px;
+}

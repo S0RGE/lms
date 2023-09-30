@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icons.eot?itj04l');
+  src:  url('fonts/icons.eot?itj04l#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?itj04l') format('truetype'),
+    url('fonts/icons.woff?itj04l') format('woff'),
+    url('fonts/icons.svg?itj04l#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-access_time:before {
+  content: "\e900";
+}
+.icon-account_circle:before {
+  content: "\e901";
+}
+.icon-adjust_black:before {
+  content: "\e902";
+}
+.icon-bookmark:before {
+  content: "\e903";
+}
+.icon-bookmark_border:before {
+  content: "\e904";
+}
+.icon-check_circle:before {
+  content: "\e905";
+}
+.icon-chevron_left_black_24dp:before {
+  content: "\e906";
+}
+.icon-chevron_right_black_24dp:before {
+  content: "\e907";
+}
+.icon-co_present_FILL0_wght0_GRAD0_opszNaN:before {
+  content: "\e908";
+}
+.icon-expand_less:before {
+  content: "\e909";
+}
+.icon-expand_more:before {
+  content: "\e90a";
+}
+.icon-home:before {
+  content: "\e90b";
+}
+.icon-login:before {
+  content: "\e90c";
+}
+.icon-logout:before {
+  content: "\e90d";
+}
+.icon-menu:before {
+  content: "\e90e";
+}
+.icon-note:before {
+  content: "\e90f";
+}
+.icon-play_circle_outline:before {
+  content: "\e910";
+}
+.icon-play_lesson:before {
+  content: "\e911";
+}
+.icon-question_mark:before {
+  content: "\e912";
+}
+.icon-school:before {
+  content: "\e913";
+}
+.icon-search:before {
+  content: "\e914";
+}
+.icon-star_black:before {
+  content: "\e915";
+}
+.icon-star_border:before {
+  content: "\e916";
+}
+.icon-star_half:before {
+  content: "\e917";
+}
+.icon-travel_explore:before {
+  content: "\e918";
+}
+.icon-videocam_black:before {
+  content: "\e919";
+}

@@ -1,0 +1,42 @@
+.course-program {
+  // TODO: remove this margin to upper
+  margin-top: 30px;
+
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .row {
+    color: rgb(129, 129, 129);
+  }
+
+  &__header {
+    &__action {
+      cursor: pointer;
+      color: #2175d0;
+    }
+  }
+
+  .program-expand__text {
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: rgb(165, 164, 164);
+
+    letter-spacing: 1px;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.expan-item + .expan-item {
+  border-top: 1px solid rgb(129, 129, 129, 0.3);
+}
+
+.passed-lesson {
+  color: #0cab0c;
+}

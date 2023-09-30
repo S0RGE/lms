@@ -1,0 +1,18 @@
+.lesson-list {
+  &__header {
+    &__complete {
+      border-radius: 50%;
+      border: 1px solid green;
+      text-align: center;
+      min-width: 40px;
+      min-height: 40px;
+    }
+  }
+  .selected-lesson {
+    background-color: #efeded;
+  }
+
+  .passed-lesson {
+    color: #0cab0c;
+  }
+}

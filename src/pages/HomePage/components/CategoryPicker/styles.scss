@@ -1,0 +1,15 @@
+.category-picker {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 5px;
+
+  &__item {
+    cursor: pointer;
+    background-color: #e6e5e5;
+    height: 88px;
+  }
+
+  &__item:hover {
+    background-color: #c9c8c8;
+  }
+}

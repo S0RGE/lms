@@ -1,0 +1,77 @@
+.course-about {
+  .header {
+    margin-bottom: 30px;
+  }
+
+  &__description {
+    margin: 80px 0 50px 0;
+    width: 100%;
+
+    &__actions {
+      gap: 2px;
+
+      button {
+        min-width: 170px;
+        text-align: center;
+      }
+      .about-bookmark {
+        cursor: pointer;
+        margin-left: 0.5em;
+      }
+    }
+  }
+
+  &__img {
+    margin: 80px auto 0 auto;
+
+    width: 75%;
+    .img-tags {
+      width: 80%;
+    }
+
+    img {
+      margin-top: 10px;
+      width: 80%;
+    }
+  }
+
+  &__info {
+    margin-top: 80px;
+
+    hr {
+      margin: 0 20px;
+    }
+
+    &__block {
+      font-size: 2.5rem;
+      font-weight: bold;
+      span {
+        font-size: 0.75rem;
+        margin: 0 10px 0 5px;
+      }
+    }
+  }
+
+  &__progress {
+    margin-top: 30px;
+
+    div {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__knowledges {
+    margin-top: 80px;
+
+    font-size: 1rem;
+
+    li + li {
+      margin-top: 5px;
+    }
+
+    .header {
+      margin-top: 60px;
+    }
+  }
+}

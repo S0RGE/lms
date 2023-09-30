@@ -1,0 +1,64 @@
+.lesson-page__wrapper {
+  // min-height: 88dvh;
+  height: 100%;
+  background-color: #e6e5e5;
+
+  .main-container {
+    // TODO: refactor need
+    min-height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lesson-page {
+    height: 100%;
+    flex-grow: 6;
+
+    &__main {
+      margin: 0 auto;
+      width: 85%;
+
+      &__content {
+        flex-grow: 5;
+        display: flex;
+        flex-direction: column;
+        // TODO: test on desktop
+        // max-width: 70%;
+      }
+    }
+    &__navigation {
+      &__content {
+        margin: 0 auto;
+        width: 85%;
+      }
+
+      .nav-button {
+        font-size: 1em;
+        line-height: 0.8em;
+      }
+    }
+
+    .alternative_lesson-data {
+      padding-top: 20px;
+      height: 500px;
+      & > div {
+        max-height: 480px;
+      }
+
+      img {
+        width: 100%;
+        height: 500px;
+      }
+    }
+
+    .lesson-attachments {
+      gap: 1em;
+    }
+  }
+}
+
+.selected-lesson-material {
+  background-color: #1976d2;
+  color: #fff;
+}

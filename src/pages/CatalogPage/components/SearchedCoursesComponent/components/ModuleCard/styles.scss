@@ -1,0 +1,15 @@
+.course-card {
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 900px) {
+  .course-card {
+    width: 100%;
+    flex-wrap: wrap;
+
+    &__image {
+      margin: 0 auto;
+    }
+  }
+}

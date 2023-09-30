@@ -1,0 +1,9 @@
+.development-page {
+  &__image {
+    filter: hue-rotate(250deg);
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+}

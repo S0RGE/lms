@@ -1,0 +1,14 @@
+.course-card {
+  width: 100%;
+
+  &__title {
+    cursor: pointer;
+    max-height: 42px;
+    overflow: hidden;
+  }
+
+  .card-chips {
+    max-height: 58px;
+    overflow: hidden;
+  }
+}

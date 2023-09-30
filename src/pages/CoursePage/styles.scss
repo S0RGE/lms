@@ -1,0 +1,21 @@
+.course-wrapper {
+  &__header {
+    padding: 0 10px 0 10px;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+
+  margin-bottom: 50px;
+}
+
+.course-tabs {
+  position: sticky;
+  top: 100px;
+}
+
+.course-bg {
+  background-color: #e6e5e5;
+  height: 100%;
+}

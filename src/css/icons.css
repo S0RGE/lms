@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'lms-icons';
+  src: url('./fonts/lms.eot?h9n1jg');
+  src: url('./fonts/lms.eot?h9n1jg#iefix') format('embedded-opentype'),
+    url('./fonts/lms.ttf?h9n1jg') format('truetype'),
+    url('./fonts/lms.woff?h9n1jg') format('woff'),
+    url('./fonts/lms.svg?h9n1jg#lms') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lms-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+  content: '\e91a';
+}
+.icon-access_time:before {
+  content: '\e900';
+}
+.icon-account_circle:before {
+  content: '\e901';
+}
+.icon-adjust:before {
+  content: '\e902';
+}
+.icon-bookmark:before {
+  content: '\e903';
+}
+.icon-bookmark_border:before {
+  content: '\e904';
+}
+.icon-check_circle:before {
+  content: '\e905';
+}
+.icon-chevron_left:before {
+  content: '\e906';
+}
+.icon-chevron_right:before {
+  content: '\e907';
+}
+.icon-co_present:before {
+  content: '\e908';
+}
+.icon-expand_less:before {
+  content: '\e909';
+}
+.icon-expand_more:before {
+  content: '\e90a';
+}
+.icon-home:before {
+  content: '\e90b';
+}
+.icon-login:before {
+  content: '\e90c';
+}
+.icon-logout:before {
+  content: '\e90d';
+}
+.icon-menu:before {
+  content: '\e90e';
+}
+.icon-note:before {
+  content: '\e90f';
+}
+.icon-play_circle_outline:before {
+  content: '\e910';
+}
+.icon-play_lesson:before {
+  content: '\e911';
+}
+.icon-question_mark:before {
+  content: '\e912';
+}
+.icon-school:before {
+  content: '\e913';
+}
+.icon-search:before {
+  content: '\e914';
+}
+.icon-star_black:before {
+  content: '\e915';
+}
+.icon-star_border:before {
+  content: '\e916';
+}
+.icon-star_half:before {
+  content: '\e917';
+}
+.icon-travel_explore:before {
+  content: '\e918';
+}
+.icon-videocam:before {
+  content: '\e919';
+}

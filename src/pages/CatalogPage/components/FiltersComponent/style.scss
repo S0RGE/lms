@@ -1,0 +1,32 @@
+.filter-wrapper {
+  width: 270px;
+  flex-basis: 270px;
+  min-width: 270px;
+
+  font-size: 14px;
+
+  .filter-main {
+    width: 100%;
+  }
+
+  .expand-separator {
+
+    .item-children .inner-child {
+      width: 500%;
+      flex-grow: 2;
+    }
+  }
+
+  .expand-separator + .expand-separator {
+    border-top: 1px solid rgb(129, 129, 129, 0.3);
+  }
+}
+
+.item-children {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}

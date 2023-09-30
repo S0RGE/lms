@@ -1,0 +1,39 @@
+.profile-wrapper {
+  background-color: #e6e3e3;
+  min-height: 88vh;
+  &__content {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+
+    &__main {
+      width: 28%;
+    }
+    &__data {
+      width: 68%;
+    }
+    .profile-card {
+      min-height: 80%;
+      gap: 10px;
+      padding: 10px;
+    }
+  }
+
+  .profile-btn {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .card-border {
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+  }
+
+  .text-profile {
+    font-size: 24px;
+  }
+
+  .user-info {
+    margin-left: 30px;
+  }
+}

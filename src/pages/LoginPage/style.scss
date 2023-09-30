@@ -1,0 +1,23 @@
+.login-wrapper {
+  height: 100vh;
+
+  background-color: #e6e5e5;
+
+  &__form {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+    height: 450px;
+    padding: 46px 112px;
+    form {
+      margin: 0 auto;
+      max-width: 364px;
+    }
+
+    button {
+      padding: 10px 60px;
+      text-transform: capitalize;
+    }
+  }
+}
