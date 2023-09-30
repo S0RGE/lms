@@ -2,6 +2,13 @@
 
 lms
 
+## LMS project with Vue 3, Composition API, graphql, quasar
+```bash
+yarn
+# or
+npm install
+```
+
 ## Install the dependencies
 ```bash
 yarn
