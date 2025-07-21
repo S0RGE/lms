@@ -89,15 +89,15 @@ const handleSubmit = async () => {
     userStore.setUserToken(token)
     userStore.setUserData(userData)
 
+    const logDataTicketUrl =
+      'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/authentication'
+
     const logData = JSON.stringify({
       pageName: 'loginPage',
       eventName: 'userLogin',
       eventDate: new Date(),
       eventData: 'User login successful',
-      ticket:
-        userData[
-          'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/authentication'
-        ],
+      ticket: userData[logDataTicketUrl],
     })
 
     saveLogs(logData)
