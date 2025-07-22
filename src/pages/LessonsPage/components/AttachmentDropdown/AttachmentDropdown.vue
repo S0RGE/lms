@@ -29,7 +29,9 @@
           >
           <q-item-section
             v-if="
-              attachment.type == 'TEXT' || attachment.type == 'PRESENTATION' || attachment.type == 'FILE'
+              attachment.type == 'TEXT' ||
+              attachment.type == 'PRESENTATION' ||
+              attachment.type == 'FILE'
             "
             style="align-items: flex-end; flex: 1 1 auto"
           >
@@ -52,7 +54,6 @@ const props = defineProps({
     required: true,
   },
 })
-
 
 const getAttachment = async (attachmentUrl) => {
   try {

@@ -30,4 +30,4 @@ const AVAILABLE_FILTERS = gql`
   }
 `
 
-export { AVAILABLE_FILTERS}
+export { AVAILABLE_FILTERS }

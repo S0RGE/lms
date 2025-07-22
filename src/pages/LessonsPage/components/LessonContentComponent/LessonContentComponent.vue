@@ -38,9 +38,7 @@ const props = defineProps({
 const emits = defineEmits(['fix-lesson-passing'])
 
 const onFixLessonPassing = () => {
-
   emits('fix-lesson-passing')
-  
 }
 
 const key = computed(() => props.selectedLessonLink + props.selectedLessonType)

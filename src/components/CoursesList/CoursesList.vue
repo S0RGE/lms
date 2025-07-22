@@ -1,5 +1,5 @@
 <template>
-  <div v-if="courses" ref="courseCarousel" class="courses-list ">
+  <div v-if="courses" ref="courseCarousel" class="courses-list">
     <course-card
       v-for="course in props.courses"
       :key="course.id"
@@ -17,7 +17,6 @@ const props = defineProps({
     required: true,
   },
 })
-
 </script>
 
 <style lang="scss" scoped>

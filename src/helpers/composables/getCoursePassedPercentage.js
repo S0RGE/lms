@@ -1,5 +1,4 @@
 const getCoursePassedPercentage = (modules) => {
-
   let passedLessonsCount = 0
   let allLessonsCount = 0
   modules.map((module) => {

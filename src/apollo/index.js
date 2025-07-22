@@ -19,7 +19,7 @@ const authLink = setContext((_, { headers }) => {
 })
 
 /* eslint-disable */
-export /* async */ function getClientOptions(/* {app, router, ...}*/  options) {
+export /* async */ function getClientOptions(/* {app, router, ...}*/ options) {
   return Object.assign(
     // General options.
     {
