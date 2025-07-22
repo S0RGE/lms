@@ -4,7 +4,7 @@
       v-for="item in categories"
       :key="item"
       class="category-picker__item row items-center justify-center text-center"
-      :to="{name: 'catalog'}"
+      :to="{ name: 'catalog' }"
     >
       {{ item }}
     </router-link>

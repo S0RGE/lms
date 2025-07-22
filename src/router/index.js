@@ -44,7 +44,6 @@ export default route(function (/* { store, ssrContext } */) {
     localStorage.setItem('lms_user', JSON.stringify(userData))
 
     if (!userToken && to.name !== 'login') {
-     
       localStorage.removeItem('lms_token')
       next({ name: 'login' })
       await saveErrorLogs(
@@ -61,7 +60,7 @@ export default route(function (/* { store, ssrContext } */) {
       await saveLogs(
         JSON.stringify({
           pageName: from.fullPath,
-          eventName:  `user moved from ${from.fullPath} to ${to.fullPath}`,
+          eventName: `user moved from ${from.fullPath} to ${to.fullPath}`,
           eventDate: new Date(),
           eventData: to.name,
           ticket:

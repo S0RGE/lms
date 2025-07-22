@@ -8,7 +8,7 @@ const ruLocalization = {
   'Picture-in-Picture': 'Картинка в картинке',
   Mute: 'Отключить звук',
   'Play Video': 'Воспроизвести видео',
-  'Replay': 'Повторить',
+  Replay: 'Повторить',
 }
 
 export { ruLocalization }

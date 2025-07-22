@@ -81,7 +81,7 @@ const handleSelectedCategory = (categoryItem, categoryIndex) => {
       }
     }
   })
-  
+
   handleSelectedFilters()
 }
 

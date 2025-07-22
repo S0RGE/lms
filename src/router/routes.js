@@ -50,7 +50,7 @@ const routes = [
         name: 'lesson',
         component: () => import('pages/LessonsPage'),
         beforeEnter: ifAuthenticated,
-        props: {default: true, siderbar: false},
+        props: { default: true, siderbar: false },
         meta: {
           breadCrumbs(route) {
             const courseName = route.query.courseName
@@ -79,9 +79,7 @@ const routes = [
         props: true,
         meta: {
           breadCrumbs() {
-            return [
-              { text: 'Каталог курсов', to: { name: 'catalog' } },
-            ]
+            return [{ text: 'Каталог курсов', to: { name: 'catalog' } }]
           },
         },
         beforeEnter: ifAuthenticated,

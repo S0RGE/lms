@@ -1,20 +1,8 @@
 <template>
-  <q-layout
-    class="main-layout"
-    view="hHh Lpr lff"
-  >
-    <q-header
-      elevated
-      class="header bg-white"
-    >
+  <q-layout class="main-layout" view="hHh Lpr lff">
+    <q-header elevated class="header bg-white">
       <q-toolbar class="bg-white text-black app-container main-layout__menu">
-        <q-btn
-          flat
-          round
-          dense
-          icon="menu"
-          @click="openMenu"
-        >
+        <q-btn flat round dense icon="menu" @click="openMenu">
           <q-drawer
             v-model="isMenuOpen"
             overlay
@@ -34,17 +22,15 @@
                     @click="openMenu"
                   >
                     <q-item-section class="row text-left">
-                      <router-link
-                        class="main-menu__item"
-                        :to="menuRef.anchor"
-                      >
+                      <router-link class="main-menu__item" :to="menuRef.anchor">
                         <span
                           style="font-size: 1.3em"
                           color="primary"
                           class="q-mr-md"
                           :class="'icon-' + menuRef.icon"
                         ></span>
-                        {{ menuRef.label }}</router-link>
+                        {{ menuRef.label }}</router-link
+                      >
                     </q-item-section>
                   </q-item>
                 </q-list>
@@ -52,53 +38,34 @@
             </q-scroll-area>
           </q-drawer>
         </q-btn>
-        <q-toolbar-title class="text-center text-primary header-main-text text-italic text-weight-bolder">lms &#183;
-          learning</q-toolbar-title>
-        <q-btn
-          v-if="isLoggedIn"
-          flat
-          icon="account_circle"
-          :label="userName"
+        <q-toolbar-title
+          class="text-center text-primary header-main-text text-italic text-weight-bolder"
+          >lms &#183; learning</q-toolbar-title
         >
+        <q-btn v-if="isLoggedIn" flat icon="account_circle" :label="userName">
           <q-menu>
             <q-list style="min-width: 100px">
-              <q-item
-                v-close-popup
-                clickable
-              >
+              <q-item v-close-popup clickable>
                 <q-item-section avatar>
-                  <span
-                    class="icon-account_circle"
-                    style="font-size: 1.5em"
-                  >
+                  <span class="icon-account_circle" style="font-size: 1.5em">
                   </span>
                 </q-item-section>
                 <q-item-section class="q-pa-sm">
                   <router-link to="/profile">
-                    Профиль</router-link></q-item-section>
+                    Профиль</router-link
+                  ></q-item-section
+                >
               </q-item>
-              <q-item
-                v-close-popup
-                clickable
-                @click="userLogout"
-              >
+              <q-item v-close-popup clickable @click="userLogout">
                 <q-item-section avatar>
-                  <span
-                    class="icon-logout"
-                    style="font-size: 1.5em"
-                  ></span>
+                  <span class="icon-logout" style="font-size: 1.5em"></span>
                 </q-item-section>
                 <q-item-section class="q-pa-sm"> Выйти</q-item-section>
               </q-item>
             </q-list>
           </q-menu>
         </q-btn>
-        <q-btn
-          v-else
-          flat
-          label="Войти"
-          @click="userLogin"
-        >
+        <q-btn v-else flat label="Войти" @click="userLogin">
           <span class="icon-login"></span>
         </q-btn>
       </q-toolbar>
@@ -109,17 +76,17 @@
     >
       <router-view></router-view>
     </q-page-container>
-    <q-footer
-      elevated
-      class="footer bg-white text-black q-py-sm"
-    >
+    <q-footer elevated class="footer bg-white text-black q-py-sm">
       <div class="text-center column">
-        <b><a
+        <b
+          ><a
             href="https://github.com/S0RGE"
             class="text-uppercase"
             color="primary"
             target="_blank"
-          >S0RGE</a></b>
+            >S0RGE</a
+          ></b
+        >
         <div>&copy;{{ new Date().getFullYear() }} Все права защищены</div>
       </div>
     </q-footer>
@@ -206,4 +173,6 @@ onUnmounted(() => {
 })
 </script>
 
-<style lang="scss" scooped>@use './styles.scss';</style>
+<style lang="scss" scooped>
+@use './styles.scss';
+</style>
